@@ -52,6 +52,33 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
+  .justify-content-center {
+  
+    margin-bottom: 140px; }
+
+.img {
+  /* width: 1000px; */
+  background-image: url(/images/studio..jpg);
+  /* display: inline; */
+  object-fit: contain;
+}
+
+@media (min-width: 768px) {
+.col-md-6 {
+
+    position: fixed; }
+}
+.mb-4, .my-4 {
+  margin-bottom: 1.5rem !important;
+  margin-top: 16px;
+}
+
+.pb-2, .py-2 {
+  padding-bottom: 0.5rem !important;
+  /* bottom: 14px; */
+  /* padding-bottom: 10px; */
+  margin-bottom: 25px;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -502,8 +529,13 @@ pre {
   position: relative;
   width: 100%;
   padding-right: 15px;
+  border-radius: 10px;
+    background: #00000082;
   padding-left: 15px; }
 
+div.col-md-6.text-center.mb-5 {
+  background: none;
+} 
 .col-md-6 {
   margin-top: -75px
 }
@@ -904,6 +936,7 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
+    position: fixed;
     max-width: 50%; }
   .col-md-7 {
     -webkit-box-flex: 0;
@@ -1053,6 +1086,8 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
+    border-radius: 10px;
+    background: #00000082;
     max-width: 33.33333%; }
   .col-lg-5 {
     -webkit-box-flex: 0;
